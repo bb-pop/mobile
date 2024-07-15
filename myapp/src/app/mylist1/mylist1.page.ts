@@ -80,7 +80,7 @@ export class Mylist1Page implements OnInit {
 
                   this.productlist[i].productname = data.inpname;
                   this.productlist[i].price = data.inprice;
-                  this.productlist[i].quantity = data.quantity;
+                  this.productlist[i].quantity = data.inquantity;
               }
             }
 
